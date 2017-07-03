@@ -274,11 +274,10 @@ body {
     color: #ffffff;
 }
 
-.footer__author_name {
+.author__name {
     font-weight: bold;
     color: #ffffff;
 }
-
 .footer-social {
     float: right;
 }
