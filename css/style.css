@@ -167,14 +167,14 @@ body {
     color: #000000;
 }
 
-.sale {
+.description {
     width: 700px;
     height: 115px;
     background-color: #27273e;
     color: white;
 }
 
-.sale50 {
+.description__pink-text {
     color: #ec1e79;
     font-weight: bold;
 }
