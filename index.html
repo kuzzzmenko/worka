@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang="ru-RU">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Главная Воркадиум</title>
-</head>
-<body>
-    <div class="wrapper">
 
-    <!-- header <-->
-       <header class="header">
-       <img src="img/logo/logo.png" alt="" class="header__logo">
-       <div class="contacts">
-        <a href="tel:8 (800) 00-392-10" class="contacts__phone">8 (800) 00-392-10</a></br>
-        <a href="#" class="contacts__shedule">График работы</a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Главная Воркадиум</title>
+</head>
+
+<body>
+  <div class="wrapper clearfix">
+
+    <!-- header -->
+    <header class="header">
+      <div class="container clearfix">
+        <a href="index.html" class="header__logo">
+                  <img src="img/logo/logo.png" alt="" class="logo"></a>
+        <div class="contacts">
+          <a href="tel:8 (800) 00-392-10" class="contacts__phone">8 (800) 00-392-10</a>
+          <a href="#" class="contacts__shedule">График работы</a>
+        </div>
       </div>
     </header>
 
-    <!-- sidebar -->
-      <section class="navigation">
+
+
+    <div class="container clearfix">
+
+      <!-- sidebar -->
       <aside class="sidebar">
         <nav class="menu">
           <ul class="nav-menu">
-            <li class="nav-menu__item">
+            <li class="nav-menu__item nav-menu__item_active">
               <a href="index.html" class="nav-menu__link">
                 <div class="nav-menu__icon nav-menu__icon-main"></div>
                 <div class="nav-menu__text">Главная</div>
               </a>
             </li>
             <li class="nav-menu__item">
-              <a href="" class="nav-menu__link">
+              <a href="prices.html" class="nav-menu__link">
                 <div class="nav-menu__icon nav-menu__icon-rate"></div>
                 <div class="nav-menu__text">Тарифы</div>
               </a>
@@ -44,90 +53,127 @@
             </li>
           </ul>
       </aside>
-    </section>
 
-
-    <!-- main content -->
-    <main class="main-content">
-        <div class="main-content__image">
-            <div class="main-content__about"><h1 class="main-content__image-title">О КОМПАНИИ</h1></div>
-            </div>
-              <div class="main-content__text">
-        <p class="main-content__text">Чтобы работать в дружелюбной и уютной атмосфере, не обязательно снимать офис за баснословные суммы. Обратитесь в наш коворкинг «Воркадиум» и оцените преимущества сотрудничества.</p>
-        <p class="main-content__text_offer">Что мы предлагаем:</p>
-        <ul class="main-content__list">
-            <li class="main-content__item"><p class="main-content__item-text">Огромный конференц-зал на 120 человек для проведения массовых переговоров, праздников, совещаний.</p></li>
-            <li class="main-content__item"><p class="main-content__item-text">Средний конференц-зал на 40 человек.</p></li>
-            <li class="main-content__item"><p class="main-content__item-text">Уютный зал с круглым столом для совещаний на 12 человек</p></li>
-            <li class="main-content__item"><p class="main-content__item-text">Пространство для совместной работы. Несколько вариантов – от уютных небольших кабинетов с панорамными окнами и стильных офисов на несколько человек до творческих комнат в стиле лофт с высокими потолками, без привычных атрибутов офиса.<p></li>
-            <li class="main-content__item"><p class="main-content__item-text">Большая библиотека с классической и специальной литературой.</p></li>
-            <li class="main-content__item"><p class="main-content__item-text">Магазин канцелярии.</p></li>
-            <li class="main-content__item"><p class="main-content__item-text">Компьютерный зал.</p></li>
-            <li class="main-content__item"><p class="main-content__item-text">Зал для неформальных встреч с баром и кальяном.</p></li>
-        </ul>
-        <p class="main-content__text">Возможность комфортно работать и с удобством организовывать бизнес встречи – это базовая потребность современного делового человека. В уютных залах «Воркадиум» есть все, что нужно для ведения дел – переговорные столы, тумбы и шкафы для хранения документов, компьютерная техника, а также уютный ресторан для дружеских встреч.</p>
-        <div class="description">Для наших новых клиентов мы предлагаем <span class="description__pink-text">скидку 50%</span> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!</div></div>
-        <div class="partners">
-            <h2 class="partners__title">Партнеры</h2>
-            <ul class="partners__list">
-                <li class="partners__item">
-                  <a href="#"><div class="partners__item_logo1"></div></a>
-                </li>
-                <li class="partners__item">
-                  <a href="#"><div class="partners__item_logo2"></div></a>               
-                 </li>
-                <li class="partners__item">
-                  <a href="#"><div class="partners__item_logo3"></div></a>
-                </li>
-                <li class="partners__item">
-                  <a href="#"><div class="partners__item_logo4"></div></a>
-                </li>
-                <li class="partners__item">
-                  <a href="#"><div class="partners__item_logo5"></div></a>
-                </li>
-                <li class="partners__item">
-                  <a href="#"><div class="partners__item_logo6"></div></a>
-                </li>
-            </ul>
+      <!-- main content -->
+      <main class="main-content">
+        <div class="main-image">
+          <img class="main-image__pic" src="img/background/top-img.jpg" alt="">
+          <h1 class="main-image__title">О КОМПАНИИ</h1></div>
+        <div class="main-content__text">
+          <p class="main-content__text">Чтобы работать в дружелюбной и уютной атмосфере, не обязательно снимать офис за баснословные суммы. Обратитесь в наш коворкинг «Воркадиум» и оцените преимущества сотрудничества.</p>
+          <p class="main-content__text_offer">Что мы предлагаем:</p>
+          <ul class="main-content__list">
+            <li class="main-content__item">
+              <p class="main-content__item-text">Огромный конференц-зал на 120 человек для проведения массовых переговоров, праздников, совещаний.</p>
+            </li>
+            <li class="main-content__item">
+              <p class="main-content__item-text">Средний конференц-зал на 40 человек.</p>
+            </li>
+            <li class="main-content__item">
+              <p class="main-content__item-text">Уютный зал с круглым столом для совещаний на 12 человек</p>
+            </li>
+            <li class="main-content__item">
+              <p class="main-content__item-text">Пространство для совместной работы. Несколько вариантов – от уютных небольших кабинетов с панорамными окнами и стильных офисов на несколько человек до творческих комнат в стиле лофт с высокими потолками, без привычных атрибутов офиса.</p>
+            </li>
+            <li class="main-content__item">
+              <p class="main-content__item-text">Большая библиотека с классической и специальной литературой.</p>
+            </li>
+            <li class="main-content__item">
+              <p class="main-content__item-text">Магазин канцелярии.</p>
+            </li>
+            <li class="main-content__item">
+              <p class="main-content__item-text">Компьютерный зал.</p>
+            </li>
+            <li class="main-content__item">
+              <p class="main-content__item-text">Зал для неформальных встреч с баром и кальяном.</p>
+            </li>
+          </ul>
+          <p class="main-content__text">Возможность комфортно работать и с удобством организовывать бизнес встречи – это базовая потребность современного делового человека. В уютных залах «Воркадиум» есть все, что нужно для ведения дел – переговорные столы, тумбы и шкафы для хранения
+            документов, компьютерная техника, а также уютный ресторан для дружеских встреч.</p>
+          <div class="description">Для наших новых клиентов мы предлагаем <span class="description__pink-text">скидку 50%</span> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!</div>
         </div>
-    </main>
+        <div class="partners">
+          <h2 class="partners__title">Партнёры</h2>
+          <ul class="partners__list">
+            <li class="partners__item">
+              <a href="#" class="partners__link">
+                <div class="partners__item-logo1"></div>
+              </a>
+            </li>
+            <li class="partners__item">
+              <a href="#" class="partners__link">
+                <div class="partners__item-logo2"></div>
+              </a>
+            </li>
+            <li class="partners__item">
+              <a href="#">
+                <div class="partners__item-logo3"></div>
+              </a>
+            </li>
+            <li class="partners__item">
+              <a href="#">
+                <div class="partners__item-logo4"></div>
+              </a>
+            </li>
+            <li class="partners__item">
+              <a href="#">
+                <div class="partners__item-logo5"></div>
+              </a>
+            </li>
+            <li class="partners__item">
+              <a href="#">
+                <div class="partners__item-logo6"></div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </main>
+    </div>
+  </div>
 
-    <!-- footer -->
-     <footer class="footer">
-      <p class="footer__author">
-        Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="#" class="footer__author_link">LoftSchool</a>. Автор работы: <span class="author__name">Прохладов Вадим</span>
-      </p>
-        <img src="img/logo/logo.png" class="footer__logo" alt="">
-        <div class="footer-social">
-          <h4 class="footer-social__text">Наши социальные сети</h4>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container clearfix">
+      <div class="author">
+        Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="#" class="author__link">LoftSchool</a>. Автор работы: <span class="author__name">Кузьменко Николай</span>
+      </div>
+      <div class="footer-logo">
+        <a href="index.html" class="footer-logo__link">
+          <img src="img/logo/logo.png" class="footer-logo__pic" alt=""></a>
+      </div>
+      <div class="social">
+        <div class="social__text">Наши социальные сети</div>
         <ul class="social-list">
           <li class="social-list__item">
-             <a class="social-list__link" href="#">
-             <div class="social-link__icon social-link__icon_vk"></div>
-             </a>
-             </li>
+            <a class="social-list__link" href="#">
+              <div class="social-link__icon social-link__icon_vk"></div>
+            </a>
+          </li>
           <li class="social-list__item">
-             <a class="social-list__link" href="#">
-               <div class="social-link__icon social-link__icon_fb"></div>
-               </a>
-               </li>
+            <a class="social-list__link" href="#">
+              <div class="social-link__icon social-link__icon_fb"></div>
+            </a>
+          </li>
           <li class="social-list__item">
-             <a class="social-list__link "href="#">
-             <div class="social-link__icon social-link__icon_gl"></div>
-             </a>
-             </li>
+            <a class="social-list__link " href="#">
+              <div class="social-link__icon social-link__icon_gl"></div>
+            </a>
+          </li>
           <li class="social-list__item">
-             <a class="social-list__link" href="#">
-             <div class="social-link__icon social-link__icon_tw"></div>
-             </a>
-             </li>
-          <li class="social-list__item">  
-             <a class="social-list__link" href="#">
-             <div class="social-link__icon social-link__icon_ml"></div>
-             </a>
-             </li>
+            <a class="social-list__link" href="#">
+              <div class="social-link__icon social-link__icon_tw"></div>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="#">
+              <div class="social-link__icon social-link__icon_ml"></div>
+            </a>
+          </li>
         </ul>
-        </div>
-    </footer>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
