@@ -485,6 +485,7 @@ body {
   width: 880px;
   padding-top: 44px;
   display: inline-block;
+  float: right;
 }
 
 .main-nav {
