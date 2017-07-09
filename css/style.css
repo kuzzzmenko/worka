@@ -725,6 +725,7 @@ body {
 
 .form__controls-title {
   display: inline-block;
+  margin-bottom: 10px;
 }
 
 .form__controls-right {
