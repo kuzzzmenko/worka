@@ -125,7 +125,7 @@ a {
 
 .header {
     background: #27273e;
-    padding: 10px 0;
+    padding: 4px 0;
 }
 
 .header__logo {
@@ -205,7 +205,7 @@ a {
     font-size: 21px;
     text-decoration: none;
     display: block;
-    padding-top: 7px;
+    padding-top: 10px;
 }
 
 .contacts__shedule {
@@ -373,6 +373,7 @@ a {
 .main-content__item-text {
     color: #000000;
     padding-left: 3px;
+    margin-bottom: 5px;
 }
 
 .description {
@@ -397,12 +398,12 @@ a {
     font-size: 49px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 18px;
+    margin-bottom: 22px;
 }
 .partners__list {
     list-style: none;
     width: 100%;
-    margin-bottom: 55px;
+    margin-bottom: 18px;
 }
 
 .partners__item {
@@ -621,7 +622,7 @@ a {
 */
 .main {
   width: 880px;
-  padding-top: 44px;
+  padding-top: 41px;
   display: inline-block;
   float: right;
 }
@@ -630,6 +631,7 @@ a {
     opacity: 0.8;
     font-size: 14px;
     font-style: italic;
+    margin-bottom: 4px;
 }
 
 .main-nav__links {
@@ -638,10 +640,13 @@ a {
 
 .main__title {
     font-size: 49px;
+    margin: 0 auto;
+
 }
 
 .main__list {
     list-style-type: none;
+    padding-top: 27px;
 }
 
 .main__item {
@@ -679,13 +684,14 @@ a {
     font-size: 14px;
     color: rgb(101,100,100);
     display: block;
+    line-height: 12px;
 }
 
 .review-author {
     font-weight: bold;
     display: block;
-    padding-top: 10px;
-    margin-bottom: 20px;
+    padding-top: 4px;
+    margin-bottom: 5px;
 }
 
 .review-text {
