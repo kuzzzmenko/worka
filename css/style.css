@@ -638,6 +638,7 @@ a {
   padding-top: 42px;
   display: inline-block;
   float: right;
+  margin-bottom: 78px;
 }
 
 .main-nav {
@@ -726,7 +727,7 @@ a {
   font-size: 14px;
   font-weight: 300;
   color: #656464;
-  margin-right: 12px;
+  margin-right: 20px;
   display: inline-block;
 }
 
@@ -800,7 +801,6 @@ a {
 	  background-color: #f5f5f5;
     border-radius: 3px;
     padding: 38px 67px;
-    margin-bottom: 48px;
 }
 
 .form__title {
@@ -862,6 +862,7 @@ a {
 
 .form__radio {
   display: inline-block;
+  padding-left: 4px;
 }
 
 .form__radio-elem {
@@ -919,15 +920,18 @@ a {
 
 .form__controls {
   width: 100%;
+  position: relative;
 }
 .form__controls-title {
   display: inline-block;
 }
 
 .form__controls-right {
-  float: right;
-  text-align: right;
+  position: absolute;
+  top: 5px;
+  left: 423px;
 }
+
 
 .form__submit {
     width: 140px;
@@ -942,7 +946,11 @@ a {
     border-radius: 3px;
     overflow: hidden;
     cursor: pointer;
+    letter-spacing: 3px;
+    padding-left: 3pX;
+    padding-top: 3px;
 }
+
 
 .form__submit:hover {
 	  background-color: #ec1e79;
@@ -955,9 +963,9 @@ a {
 
 .prices {
     width: 880px;
-    padding-top: 42px;
     float: right;
     box-sizing: border-box;
+    padding-top: 42px;
 }
 
 .prices-nav {
@@ -971,6 +979,7 @@ a {
     font-size: 49px;
     font-weight: bold;
     margin: 0 auto;
+    margin-bottom: 28px;
 }
 
 .prices-nav__link {
@@ -980,32 +989,33 @@ a {
 .tariffs {
     width: 880px;
     display: block;
+    margin-bottom: 21px;
 }
 
 .tariffs__list {
   width: 100%;
-  padding-top: 29px;
-  margin-bottom: 20px;
 }
 
 .tariffs__item {
   width: 250px;
   display: inline-block;
-  margin-left: 55px;
+  margin-left: 52px;
   vertical-align: top;
-  margin-bottom: 50px;
   text-align: center;
+  margin-bottom: 44px;
 }
 
 .tariffs__item:nth-child(3n+1) {
   margin: 0;
 }
+
 .tariffs__img {
     height: 155px;
     background: #27273e;
     position: relative;
     overflow: hidden;
     border-radius: 5px;
+    margin-bottom: 22px;
 }
 
 .tariffs__img-pic {
@@ -1020,14 +1030,14 @@ a {
 .tariffs__price {
     font-size: 18px;
     font-weight: bold;
-    padding-top: 15px;
-    width: 240px;
+    width: 252px;
+    margin-bottom: 5px;
 }
 
 .tariffs__text {
     font-size: 14,02px;
-    padding-top: 6px;
     line-height: 21px;
+    width: 261px;
 }
 
 .tariffs__item-title {
@@ -1035,11 +1045,10 @@ a {
     font-weight: bold;
     color: #5dd1f8;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 49%;
+    left: 51%;
     transform: translate(-50%, -50%);
-    width: 100%;
-    padding: 0 10px;
+    width: 80%;
     text-align: center;
     text-transform: uppercase;
 }
