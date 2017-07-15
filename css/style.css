@@ -809,9 +809,6 @@ a {
     margin-bottom: 6px;
 }
 
-.form__row {
-  margin-bottom: 11px;
-}
 .form__cell {
     width: 270px;
     display: block;
@@ -913,12 +910,9 @@ a {
     color: #ec1e79;
 }
 
-.form__controls-left, .form__controls-right {
-    float: left;
-    width: 50%;
-    display: inline;
+.form__controls-left {
+  float: left;
 }
-
 .form__btns {
   display: block;
 }
@@ -931,6 +925,7 @@ a {
 }
 
 .form__controls-right {
+  float: right;
   text-align: right;
 }
 
@@ -949,7 +944,7 @@ a {
     cursor: pointer;
 }
 
-.form__send:hover {
+.form__submit:hover {
 	  background-color: #ec1e79;
 }
 
